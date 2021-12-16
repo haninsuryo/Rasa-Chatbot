@@ -1,0 +1,26 @@
+[
+  {
+    "text": "alamat candi prambanan?",
+    "intent": "lokasi",
+    "intent_prediction": {
+      "name": "candi",
+      "confidence": 0.6035223007202148
+    }
+  },
+  {
+    "text": "terimakasih",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.680665135383606
+    }
+  },
+  {
+    "text": "makasih",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.712978720664978
+    }
+  }
+]

@@ -1,0 +1,41 @@
+version: "2.0"
+stories:
+- story: path 1 (C:\Users\HANIN\AppData\Local\Temp\tmpqz7w0nty\35b421447cb24e2db9862607066d8c8e_test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: kabar
+  - action: utter_kabar
+  - action: utter_bantuan
+  - intent: affirm
+  - action: utter_affirm
+  - intent: bantuan
+  - action: utter_bantuan
+  - intent: candi
+  - action: utter_candi
+  - intent: lingkungan_candi
+  - action: utter_lingkungan_candi
+  - intent: lokasi
+  - action: utter_lokasi
+  - intent: waktu
+  - action: utter_waktu
+  - intent: tiket
+  - action: utter_tiket
+  - intent: akomodasi_kendaraan_pribadi
+  - action: utter_kendaraan_pribadi
+  - intent: akomodasi_bus
+  - action: utter_bus
+  - intent: akomodasi_kereta_api
+  - action: utter_kereta_api
+  - intent: akomodasi_pesawat
+  - action: utter_pesawat
+  - intent: kuliner
+  - action: utter_kuliner
+  - intent: sourvenir
+  - action: utter_sourvenir
+  - intent: covid
+  - action: utter_covid
+  - intent: bot_challenge
+  - action: utter_iamabot
+  - intent: goodbye  # predicted: affirm: oke cukup?
+  - action: utter_goodbye

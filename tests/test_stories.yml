@@ -1,0 +1,79 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+
+stories:
+- story: path 1
+  steps:
+  - user: |
+      haloooooo !
+    intent: greet
+  - action: utter_greet
+  - user: |
+      gimana kabarnya bot?
+    intent: kabar
+  - action: utter_kabar
+  - action: utter_bantuan
+  - user: |
+      okke siyap alhamdulillah !
+    intent: affirm
+  - action: utter_affirm
+  - user: |
+      tolong dong bot!
+    intent: bantuan
+  - action: utter_bantuan
+  - user: |
+      apa yang kamu tahu tentang candi Prambanan
+    intent: candi
+  - action: utter_candi
+  - user: |
+      apa saja yang ada di dalam candi prambanan?
+    intent: lingkungan_candi
+  - action: utter_lingkungan_candi
+  - user: |
+      dimana lokasinya?
+    intent: lokasi
+  - action: utter_lokasi
+  - user: |
+      sekarang sudah buka belum?
+    intent: waktu
+  - action: utter_waktu
+  - user: |
+      berapa harga tiketnya?
+    intent: tiket
+  - action: utter_tiket
+  - user: |
+      cara menuju prambanan dengan kendaraan?
+    intent: akomodasi_kendaraan_pribadi
+  - action: utter_kendaraan_pribadi
+  - user: |
+      cara menuju candi naik bus?
+    intent: akomodasi_bus
+  - action: utter_bus
+  - user: |
+      caranya ke prambanan naik kereta api?
+    intent: akomodasi_kereta_api
+  - action: utter_kereta_api
+  - user: |
+      menuju prambanan dari bandara naik pesawat?
+    intent: akomodasi_pesawat
+  - action: utter_pesawat
+  - user: |
+      rekomendasi makan yang enak dong bot?
+    intent: kuliner
+  - action: utter_kuliner
+  - user: |
+      oleh oleh atau buah tangan yang bisa dibawa pulang?
+    intent: sourvenir
+  - action: utter_sourvenir
+  - user: |
+      apa disana masih ppkm?
+    intent: covid
+  - action: utter_covid
+  - user: |
+      kamu siapa ?
+    intent: bot_challenge
+  - action: utter_iamabot
+  - user: |
+      oke cukup?
+    intent: goodbye
+  - action: utter_goodbye
